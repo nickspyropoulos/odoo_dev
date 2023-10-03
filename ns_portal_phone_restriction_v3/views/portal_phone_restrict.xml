@@ -1,0 +1,39 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<odoo>-->
+<!--    <template id="address" inherit_id="website_sale.address">-->
+
+<!--        <xpath expr="//input[@name='street2']" position="replace" >-->
+<!--            <input type="text" name="street2" required="required" pattern="a-c" maxlength="10" minlength="5" t-attf-class="form-control #{error.get('street2') and 'is-invalid' or ''}"-->
+<!--                   t-att-value="'street2' in checkout and checkout['street2']"/>-->
+<!--            <field name="patterna">keimeno gia to pelath</field>-->
+<!--        </xpath>-->
+<!--        <xpath expr="//input[@name='phone']" position="replace" >-->
+<!--            <input type="tel" name="phone" t-attf-class="form-control #{error.get('phone') and 'is-invalid' or ''}"-->
+<!--                     t-att-value="'phone' in checkout and checkout['phone']" />-->
+<!--            <field name="pattern">Να αρχίζει με 69 και να ακολουθούν 8 αριθμοί. Χωρίς παύλες ή κενά.</field>-->
+<!--        </xpath>-->
+<!--    </template>-->
+
+<!--</odoo>-->
+<!--    <template id="portal_my_details" inherit_id="portal.portal_my_details">-->
+<!--        <xpath expr="//input[@name='phone']" position="replace" >-->
+<!--            <input type="tel" name="phone" t-attf-class="form-control #{error.get('phone') and 'is-invalid' or ''}"-->
+<!--                   t-att-value="phone or partner.phone"    />-->
+<!--            <field name="pattern">Να αρχίζει με 69 και να ακολουθούν 8 αριθμοί. Χωρίς παύλες ή κενά.</field>-->
+
+<!--        </xpath>-->
+<!--        <xpath expr="//input[@name='zipcode']" position="replace" >-->
+<!--            <input type="text" name="zipcode" t-attf-class="form-control #{error.get('zip') and 'is-invalid' or ''}"-->
+<!--                   t-att-value="zipcode or partner.zip"-->
+<!--                   required="True" />-->
+<!--            <field name="pattern">Το πεδίο αυτό δέχεται 5 αριθμούς χωρίς παύλες ή κενά.</field>-->
+<!--        </xpath>-->
+<!--    </template>-->
+
+
+
+<!--<template id="address" name="Address Management">-->
+<!--<div t-attf-class="form-group #{error.get('phone') and 'o_has_error' or ''} col-xl-6">-->
+<!--    <label class="col-form-label" for="phone">Phone</label>-->
+<!--    <input type="tel" name="phone" t-attf-class="form-control #{error.get('phone') and 'is-invalid' or ''}" t-att-value="phone or partner.phone" />-->
+<!--</div>-->
