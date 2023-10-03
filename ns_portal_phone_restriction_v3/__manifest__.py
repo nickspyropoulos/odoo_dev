@@ -5,7 +5,7 @@
         portal module""",
     'description': """
          portal phone restriction""",
-    'version': '1.1',
+    'version': '1.3',
     # any module necessary for this one to work correctly
     'depends': ['portal', 'website_sale', 'website'],
     'sequence': -172,
